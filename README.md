@@ -32,7 +32,7 @@ Avant d'utiliser ce projet, assurez-vous d'avoir installé :
 ## Installation
 1. Clonez ce dépôt sur votre machine locale :
    ```bash
-   git clone https://github.com/<votre-nom-utilisateur>/<nom-du-repo>.git
+   git clone https://github.com/majdsaadouli/Simulation-Chirurgicale-et-Reconstruction-3D-avec-3D-Slicer.git
    ```
 
 2. Copiez les fichiers Python dans le dossier des modules de votre installation 3D Slicer :
@@ -92,10 +92,8 @@ Les contributions sont les bienvenues !
 3. Soumettez une pull request.
 
 ## Auteurs
-- **[Ton Nom](https://github.com/<votre-nom-utilisateur>)** : Étudiant en génie biomédical et développeur passionné par les technologies médicales.
+- **Majd Saadouli (https://github.com/majdsaadouli/)** : Étudiant en génie biomédical et développeur passionné par les technologies médicales.
 
-## Licence
-Ce projet est sous licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d’informations.
 
 ---
 Merci d'utiliser cette extension pour 3D Slicer ! N’hésitez pas à partager vos retours et suggestions.
