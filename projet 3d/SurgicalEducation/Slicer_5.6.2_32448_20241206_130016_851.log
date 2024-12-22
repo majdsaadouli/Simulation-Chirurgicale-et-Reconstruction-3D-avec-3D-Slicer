@@ -1,0 +1,30 @@
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Session start time .......: 20241206_130016
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Slicer version ...........: 5.6.2 (revision 32448 / f10cd8c) win-amd64 - installed release
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Operating system .........: Windows /  Personal / (Build 22631, Code Page 65001) - 64-bit
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Memory ...................: 7973 MB physical, 12325 MB virtual
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - CPU ......................: GenuineIntel , 8 cores, 8 logical processors
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - VTK configuration ........: OpenGL2 rendering, TBB threading
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Qt configuration .........: version 5.15.2, with SSL, requested OpenGL 3.2 (compatibility profile)
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Internationalization .....: disabled, language=
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Developer mode ...........: enabled
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Application path .........: D:/Slicer 5.6.2/bin
+[DEBUG][Qt] 06.12.2024 13:00:16 [] (unknown:0) - Additional module paths ..: D:/projet 3d\SurgicalEducation\DICOMLoader, D:/projet 3d\SurgicalEducation\Reconstruction3D, D:/projet 3d\SurgicalEducation\SurgicalSimulation
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) - Traceback (most recent call last):
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -   File "<string>", line 1, in <module>
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -   File "D:\Slicer 5.6.2\lib\Python\Lib\imp.py", line 169, in load_source
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -     module = _exec(spec, sys.modules[name])
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -   File "<frozen importlib._bootstrap>", line 613, in _exec
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -   File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -   File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -   File "D:/projet 3d/SurgicalEducation/DICOMLoader/DICOMLoader.py", line 4, in <module>
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) -     from slicer.util import qt
+[CRITICAL][Stream] 06.12.2024 13:00:24 [] (unknown:0) - ImportError: cannot import name 'qt' from 'slicer.util' (D:\Slicer 5.6.2\bin\Python\slicer\util.py)
+[CRITICAL][Qt] 06.12.2024 13:00:24 [] (unknown:0) - loadSourceAsModule - Failed to load file "D:/projet 3d/SurgicalEducation/DICOMLoader/DICOMLoader.py"  as module "DICOMLoader" !
+[CRITICAL][Qt] 06.12.2024 13:00:24 [] (unknown:0) - Fail to instantiate module  "DICOMLoader"
+[CRITICAL][Qt] 06.12.2024 13:00:27 [] (unknown:0) - The following modules failed to be instantiated:
+[CRITICAL][Qt] 06.12.2024 13:00:27 [] (unknown:0) -    DICOMLoader
+[DEBUG][Python] 06.12.2024 13:00:30 [Python] (D:\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentEditor
+[DEBUG][Python] 06.12.2024 13:00:30 [Python] (D:\Slicer 5.6.2\lib\Slicer-5.6\qt-scripted-modules\SubjectHierarchyPlugins\AbstractScriptedSubjectHierarchyPlugin.py:39) - Scripted subject hierarchy plugin registered: SegmentStatistics
+[DEBUG][Qt] 06.12.2024 13:00:30 [] (unknown:0) - Switch to module:  "Welcome"
+[DEBUG][Qt] 06.12.2024 13:20:53 [] (unknown:0) - Switch to module:  "SurgicalSimulation"
+[DEBUG][Qt] 06.12.2024 13:22:18 [] (unknown:0) - Switch to module:  ""
